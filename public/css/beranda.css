@@ -1,0 +1,145 @@
+body {
+    background: #fff5ec;
+    margin: 0;
+}
+
+nav {
+    /* background-color: #242424; */
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 2vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-style: bold;
+
+    margin: 100px;
+}
+.menu a img{
+    width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        /* background-color: #242424; */
+    }
+
+    .menu li {
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .menu li:hover {
+        background-color: #333;
+    }
+
+    .menu a {
+        font-size: 18px;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    margin: auto;
+    margin-left: 15%;
+}
+
+
+.list{
+    padding: 22px;
+    text-align: center;
+   
+}
+.list a{ text-decoration: none;
+    color: black;
+    width: 150px;
+    padding: 5%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 60px;
+    border-radius: 20px;
+font-weight: bold;} 
+
+/* table, th, td {
+    border: 1px solid black;
+} */
+
+td{text-align: center;
+    /* border:1px solid black; */
+    padding: 0px;
+    margin-right:10%}
+td img{
+width: 100%;
+    /* margin-top: 90px; */
+}
+TD h1{
+    color: #259577;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}

@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background: #f6f4f3;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+
+nav {
+    /* background-color: #242424; */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+nav .menu {
+    font-size: 1px;
+}
+.logo img {
+    max-width: 40%;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 100px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 1vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center; /* Memusatkan .container secara horizontal */
+    align-items: center; /* Memusatkan .container secara vertikal */
+    background: #d1c8c1;
+    min-height: 8vh; /* Mengatur tinggi .container minimal setara dengan tinggi viewport */
+    padding: 2px;
+    text-align: center; /* Meratakan teks ke tengah */
+    flex-direction: column; /* Menjadikan flexbox menjadi kolom */
+    width: 80%; /* Lebar .container */
+    max-width: 800px; /* Lebar maksimum .container */
+    margin: 0 auto; /* Memusatkan .container secara horizontal */
+    padding-bottom: 100px;
+    border-radius: 10vh;
+}
+
+.container .logo {
+    margin-top: 20px; /* Jarak atas untuk logo */
+}
+
+.container img {
+    max-width: 80%;
+}
+
+.container p {
+    margin-top: 10px; /* Jarak atas untuk paragraf */
+}
+
+.container .contact-links {
+    text-align: left;
+    justify-content: center;
+    margin-top: 20px; /* Jarak atas untuk tautan kontak */
+}
+
+.container .contact-links a {
+    display: block; /* Mengubah tautan menjadi blok untuk memudahkan styling */
+    margin: 0 20px; /* Jarak antar tautan */
+    font-size: 26px; /* Ukuran font untuk tautan kontak */
+    color: black;
+    text-decoration: none;
+}
+
+.container .contact-links img {
+    width: 30px; /* Ukuran ikon WhatsApp dan Gmail */
+    height: auto;
+    margin-right: 10px; /* Jarak antara ikon dan teks */
+}

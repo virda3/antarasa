@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    background: #fff5ec;
+}
+
+nav {
+    /* background-color: #242424; */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+nav .menu {
+    font-size: 1px;
+}
+.logo img {
+    max-width: 40%;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 100px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 1vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.register-form {
+    max-width: 600px;
+    margin: 50px auto;
+    /* background: #fff; */
+    padding: 20px;
+    /* border-radius: 8px; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #259577; /* Example color */
+}
+.register-form p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #259577; /* Example color */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: calc(100% - 20px);
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+.form-group button {
+    background-color: gray; /* Example button color */
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 43%;
+    
+}
+
+.form-group button:hover {
+    background-color: #207265; /* Darker shade for hover effect */
+}
